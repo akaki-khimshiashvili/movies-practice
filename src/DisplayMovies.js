@@ -27,5 +27,5 @@ export function DisplayMovies() {
     setMovies(updatedMovies);
   }
 
-  return <Movies movie={movies} onDelete={handleDelete} />;
+  return <Movies movies={movies} onDelete={handleDelete} />;
 }
